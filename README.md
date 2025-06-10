@@ -3,3 +3,9 @@ Conteúdos sobre execução de análises de segurança em clusters Kubernetes.
 
 Workloads testados com o cluster do AKS - Azure Kubernetes Service:
 - https://github.com/renatogroffe/Kubernetes-KEDA-Cron-Workload
+
+Exemplo com Kubescape:
+
+```bash
+kubescape scan --format html --output report-cluster.html --severity-threshold high
+```
