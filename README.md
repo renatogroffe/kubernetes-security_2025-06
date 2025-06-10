@@ -9,3 +9,4 @@ Exemplo com Kubescape:
 ```bash
 kubescape scan --format html --output report-cluster.html --severity-threshold high
 ```
+Repositório com Pipeline do Azure DevOps demonstrando o uso do Kubescape: https://github.com/renatogroffe/azuredevops-kubescape-kubernetes-kind
