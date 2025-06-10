@@ -10,3 +10,9 @@ Exemplo com Kubescape:
 kubescape scan --format html --output report-cluster.html --severity-threshold high
 ```
 Repositório com Pipeline do Azure DevOps demonstrando o uso do Kubescape: https://github.com/renatogroffe/azuredevops-kubescape-kubernetes-kind
+
+Exemplo com Popeye:
+
+```bash
+popeye -A --save --out html --output-file report-cluster.html
+```
